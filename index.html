@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript Form</title>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+
+<body>
+
+        <div class="container">
+	<div class="header">
+        <p></p>
+		<h2>Javascript Form</h2>
+	</div>
+<form  id="form" class="form">
+    <div class="form-control">
+    <label>Full Name :</label>
+    <input id="fullName" placeholder="please enter full name" type="text" />
+        
+    <span id="errorInName"></span>
+<p></p>
+    <label>Email :</label>
+    <input id="Email" placeholder="please enter your email" type="email" />
+       
+    <span id="errorInEmail"></span>
+<p></p>
+    <label>Phone :</label> 
+    <input id="mobileNumber" placeholder="please enter your number" type="tel" onkeyup="setNumberFormat()" /> 
+    <span id="numberInfo"></span> 
+      
+    <span id="errorInNumber"></span> 
+    <p></p>   
+    <button type="button" onclick="submit_form()">Submit</button>
+    </div>
+    </div>
+        <script src="main.js"></script>
+    </body>
+</html>

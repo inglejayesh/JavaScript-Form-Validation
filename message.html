@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Message</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+	<div class="header">
+        <p></p>
+		<h2 id="displayParaMessage">Dear ----,Thank you for your inquiry. A four digit verification number 
+             has been sent to your phone number: --------- </h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="OTP">OTP</label>
+			<input type="tel" placeholder="please enter 4 digit otp" id="inputOTP" maxlength="4" required/>
+            <span id="errorInOtp"></span>
+			<button type="button" onclick="checkOTP()">Verify</button>
+		</div>
+
+</div>
+         <script src="function.js"></script>
+    </body>
+</html>
