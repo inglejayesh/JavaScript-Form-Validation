@@ -28,7 +28,7 @@ function checkOTP() {
     if (OTP == inputOTP) {
         localStorage.removeItem('userDetails');
         alert("Validation Successfull");
-        window.location.href = "http://pixel6.co/"
+        window.location.href = "https://print2block.com/"
         isValidOTP = false;
     }
     else {
@@ -38,7 +38,7 @@ function checkOTP() {
             /// removing the data in the form 
             localStorage.removeItem('userDetails');
             alert("Exceeded Registration Attempts")
-            window.location.href = "http://pixel6.co/404-Error-Not-Found/"
+            window.location.href = "https://print2block.com/404-Error-Not-Found/"
         } else {
             reloadForm();
             isValidOTP = true;
